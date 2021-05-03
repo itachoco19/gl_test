@@ -450,9 +450,9 @@ void getValueFromMenu(int value)
 void mySetMenu()
 {
 	glutCreateMenu(getValueFromMenu);
-	glutAddMenuEntry("フライトモード", 1);
-	glutAddMenuEntry("鑑賞モード", 2);
-	glutAddMenuEntry("座標・角度のリセット", 3);
+	glutAddMenuEntry("Flight mode", 1);
+	glutAddMenuEntry("Appreciation mode", 2);
+	glutAddMenuEntry("reset", 3);
 	glutAttachMenu(GLUT_RIGHT_BUTTON);
 }
 
