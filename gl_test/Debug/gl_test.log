@@ -7,4 +7,5 @@ C:\Users\watanabe\Desktop\gl_test\gl_test\report2.c(95,37): warning C4244: '関�
 C:\Users\watanabe\Desktop\gl_test\gl_test\report2.c(96,16): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
 C:\Users\watanabe\Desktop\gl_test\gl_test\report2.c(93,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Users\watanabe\Desktop\gl_test\gl_test\report2.c(108,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\watanabe\Desktop\gl_test\gl_test\report2.c(281,66): warning C4244: '関数': 'double' から 'float' への変換です。データが失われる可能性があります。
   gl_test.vcxproj -> C:\Users\watanabe\Desktop\gl_test\Debug\gl_test.exe

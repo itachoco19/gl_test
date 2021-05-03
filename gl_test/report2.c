@@ -275,6 +275,11 @@ void myIdle(void)
 		{
 			plane_angle_role -= diff_yaw;
 		}
+		else if (diff_yaw == 0.0)
+		{
+			//ロール復帰処理
+			plane_angle_role -= plane_angle_role / (fabsf(plane_angle_role) + 30.0);
+		}
 		else
 		{
 			plane_angle_role += diff_yaw;
@@ -287,8 +292,7 @@ void myIdle(void)
 		{
 			plane_angle_role = -40.0;
 		}
-		//ロール復帰処理
-		plane_angle_role -= plane_angle_role / 100.0;
+		
 		diff_yaw = 0;
 		diff_pitch = 0;
 
